@@ -1,0 +1,79 @@
+{
+  "id": "3330329",
+  "name": "李罡大作业",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "421412",
+      "name": "审核",
+      "font_class": "shenhe",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "1368551",
+      "name": "详情",
+      "font_class": "detail",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9143177",
+      "name": "申请",
+      "font_class": "shenqing",
+      "unicode": "e7e3",
+      "unicode_decimal": 59363
+    },
+    {
+      "icon_id": "12083587",
+      "name": "打卡",
+      "font_class": "daka",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "16978010",
+      "name": "S_产检计划",
+      "font_class": "S_chanjianjihua",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "20029715",
+      "name": "婚假",
+      "font_class": "hunjia",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "20029726",
+      "name": "陪产假",
+      "font_class": "peichanjia",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "21820379",
+      "name": "哺乳假",
+      "font_class": "burujia",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "21894530",
+      "name": "年假",
+      "font_class": "nianjia",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "25373157",
+      "name": "产假",
+      "font_class": "chanjia",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    }
+  ]
+}
