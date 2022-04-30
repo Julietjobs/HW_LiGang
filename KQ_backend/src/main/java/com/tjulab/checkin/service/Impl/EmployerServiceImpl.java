@@ -70,7 +70,7 @@ public class EmployerServiceImpl implements EmployerService {
     @Override
     public List<QueryEmpInfoResp> queryAllEmployerInfo() {
         QueryWrapper<Employer> queryWrapper = new QueryWrapper<>();
-        queryWrapper.in("role" , 1, 2 , 3);
+        queryWrapper.in("role" , 1, 2 , 3, 4, 5);
         List<Employer> employerList = employerMapper.selectList(queryWrapper);
         List<QueryEmpInfoResp> respList = new ArrayList<>();
         for(Employer employer : employerList){

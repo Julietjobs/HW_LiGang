@@ -70,17 +70,21 @@ export default {
         loadstate(){
             var empId = window.sessionStorage.getItem('empId');
             this.$http.get('/queryEmpStateById/'+empId).then(res => {
-                console.log(res.data);
                 if (res.data==0){
                     this.state = '下班';
+                    this.isHere = false;
                 }else if (res.data==1){
                     this.state = '在班';
+                    this.isHere = true;
                 }else if (res.data==2){
                     this.state = '外出';
+                    this.isHere = false;
                 }else if (res.data==3){
                     this.state = '假期';
+                    this.isHere = false;
                 }else if (res.data==4){
                     this.state = '请假';
+                    this.isHere = false;
                 }
             });
         },
